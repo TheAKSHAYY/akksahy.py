@@ -13,3 +13,23 @@ int main ()
     return 0 ;
 
 }
+
+// c program for swapping the value of 2 variable without using third variable 
+#include<stdio.h>
+int main ()
+{
+int a,b ;
+printf ("enter value to swap  a,b : ");
+scanf ("%d ,%d" ,&a ,&b);
+printf("value before swap :a=%d ,b=%d", a,b);
+ a = a + b;  
+ b = a - b; 
+ a = a - b;  
+printf("\nvalue after swapping : a=%d,b=%d" ,a,b);
+return 0;
+}
+
+
+
+
+
