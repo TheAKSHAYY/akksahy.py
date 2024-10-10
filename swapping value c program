@@ -1,0 +1,15 @@
+# include <stdio.h>
+int main ()
+{
+    // c program for swapping the value of 2 variable using third variable 
+    int a,b, temp ;
+    printf("Enter value to swap  a,b :");
+    scanf("%d %d" , &a,&b );
+    printf ("value before swap : a=%d , b=%d",a,b);
+    temp=a ;
+    a=b;
+    b=temp;
+    printf("\nvalue after swap : a=%d , b=%d" ,a,b);
+    return 0 ;
+
+}
